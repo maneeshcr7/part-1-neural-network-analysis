@@ -1,0 +1,5 @@
+Experiment,Layers,LR,Activation,Test Accuracy,F1 Score
+"Baseline (relu, 2L)","[64, 32]",0.001,relu,0.715,0.0952
+"Deeper (relu, 3L)","[128, 64, 32]",0.001,relu,0.7075,0.093
+High LR (0.01),"[64, 32]",0.01,relu,0.5875,0.0571
+tanh activation,"[64, 32]",0.001,tanh,0.7875,0.1053
